@@ -1,0 +1,47 @@
+[
+  {
+    "cover_img": "https://www.example.com/cover_image1.jpg",
+    "title": "The Art of Fiction",
+    "author_name": "Jane Doe",
+    "author_img": "https://www.example.com/author_image1.jpg",
+    "posted_date": "2024-03-12",
+    "hashtags": ["fiction", "writing", "creativity"],
+    "post_read_time": 10
+  },
+  {
+    "cover_img": "https://www.example.com/cover_image2.jpg",
+    "title": "Exploring the Universe",
+    "author_name": "John Smith",
+    "author_img": "https://www.example.com/author_image2.jpg",
+    "posted_date": "2024-03-11",
+    "hashtags": ["space", "science", "exploration"],
+    "post_read_time": 15
+  },
+  {
+    "cover_img": "https://www.example.com/cover_image3.jpg",
+    "title": "The Power of Positivity",
+    "author_name": "Emily Jones",
+    "author_img": "https://www.example.com/author_image3.jpg",
+    "posted_date": "2024-03-10",
+    "hashtags": ["positivity", "motivation", "self-help"],
+    "post_read_time": 8
+  },
+  {
+    "cover_img": "https://www.example.com/cover_image4.jpg",
+    "title": "Cooking for Beginners",
+    "author_name": "Michael Brown",
+    "author_img": "https://www.example.com/author_image4.jpg",
+    "posted_date": "2024-03-09",
+    "hashtags": ["cooking", "recipes", "beginners"],
+    "post_read_time": 12
+  },
+  {
+    "cover_img": "https://www.example.com/cover_image5.jpg",
+    "title": "Photography Tips and Tricks",
+    "author_name": "Sarah Miller",
+    "author_img": "https://www.example.com/author_image5.jpg",
+    "posted_date": "2024-03-08",
+    "hashtags": ["photography", "tips", "tricks"],
+    "post_read_time": 20
+  }
+]
