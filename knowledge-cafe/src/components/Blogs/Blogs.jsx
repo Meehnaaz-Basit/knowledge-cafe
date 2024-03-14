@@ -12,7 +12,7 @@ const Blogs = ({ handleAddToBookmarks, handleReadTime }) => {
 
   return (
     <div className="py-2 md:py-4 lg:py-6 md:w-2/3">
-      <h1>blogs: {blogs.length}</h1>
+      <h1 className="text-lg font-bold mb-5">Blogs: {blogs.length}</h1>
       {blogs.map((eachBlog) => (
         <Blog
           key={eachBlog.id}
