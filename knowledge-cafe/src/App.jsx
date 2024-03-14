@@ -8,9 +8,16 @@ import Header from "./components/Header/Header";
 function App() {
   const [bookmarks, setBookmarks] = useState([]);
 
+  const [readTime, setReadTime] = useState(0);
+
   const handleAddToBookmarks = (blog) => {
     const newBookmarks = [...bookmarks, blog];
     setBookmarks(newBookmarks);
+  };
+
+  const handleReadTime = (time) => {
+    const newTime = readTime + time;
+    setReadTime(newTime);
   };
 
   return (
@@ -18,8 +25,11 @@ function App() {
       <div className="container mx-auto max-w-[1200px] w-[90%] lg-w[84%]">
         <Header></Header>
         <div className="md:flex gap-8">
-          <Blogs handleAddToBookmarks={handleAddToBookmarks}></Blogs>
-          <Bookmarks bookmarks={bookmarks}></Bookmarks>
+          <Blogs
+            handleAddToBookmarks={handleAddToBookmarks}
+            handleReadTime={handleReadTime}
+          ></Blogs>
+          <Bookmarks bookmarks={bookmarks} readTime={readTime}></Bookmarks>
         </div>
       </div>
     </>
